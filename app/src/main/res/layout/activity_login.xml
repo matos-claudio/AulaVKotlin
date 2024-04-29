@@ -26,6 +26,7 @@
         android:layout_height="wrap_content"
         android:hint="Username"
         android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:layout_marginTop="16dp"/>
 
     <EditText
@@ -35,6 +36,7 @@
         android:hint="Password"
         android:inputType="textPassword"
         android:textColorHint="@color/white"
+        android:textColor="@color/white"
         android:layout_marginTop="8dp"/>
 
     <Button
@@ -43,6 +45,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/white"
         android:text="LOGIN"
+        android:fontFamily="monospace"
         android:layout_marginTop="16dp"
         android:textColor="@color/black"
         />
