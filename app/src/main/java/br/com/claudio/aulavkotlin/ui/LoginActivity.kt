@@ -40,6 +40,5 @@ class LoginActivity : AppCompatActivity(), LoginContract.View {
 
     override fun showLoginError(message: String) {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show()
-        println("ErrorLogin ${message}")
     }
 }
